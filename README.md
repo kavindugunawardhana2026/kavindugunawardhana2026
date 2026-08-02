@@ -25,9 +25,11 @@
 
 ## 🧠 About Me
 
-<table>
-<tr>
-<td valign="top" width="65%">
+<div align="center">
+
+![Binary Rain - Kavindu Kalhara](binary_rain.svg)
+
+</div>
 
 ```python
 class KavinduKalhara:
@@ -58,20 +60,6 @@ print(me.life_motto)
 # Output: Always learning new things 💡
 ```
 
-</td>
-<td valign="middle" align="center" width="35%">
-
-<img src="binary_portrait.png" width="220" alt="Binary Portrait of Kavindu Kalhara"/>
-
-`01001011 01100001`  
-`01110110 01101001`  
-`01101110 01100100`  
-`01110101 00100000`  
-
-</td>
-</tr>
-</table>
-
 
 ---
 
@@ -98,10 +86,10 @@ print(me.life_motto)
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=kavindugunawardhana2026&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats-jade-nine-23.vercel.app/api?username=kavindugunawardhana2026&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" width="100%"/>
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavindugunawardhana2026&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top Languages" width="100%"/>
+      <img src="https://github-readme-stats-jade-nine-23.vercel.app/api/top-langs/?username=kavindugunawardhana2026&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8" alt="Top Languages" width="100%"/>
     </td>
   </tr>
 </table>
@@ -126,7 +114,7 @@ print(me.life_motto)
 <div align="center">
 
 <a href="https://github.com/kavindugunawardhana2026">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kavindugunawardhana2026&repo=kavindugunawardhana2026&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=f59e0b&text_color=c9d1d9" alt="Profile Repo"/>
+  <img src="https://github-readme-stats-jade-nine-23.vercel.app/api/pin/?username=kavindugunawardhana2026&repo=kavindugunawardhana2026&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=f59e0b&text_color=c9d1d9" alt="Profile Repo"/>
 </a>
 
 </div>
