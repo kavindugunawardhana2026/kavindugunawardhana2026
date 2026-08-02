@@ -103,7 +103,6 @@ print(me.life_motto)
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kavindugunawardhana2026&bg_color=0d1117&color=6366f1&line=6366f1&point=f59e0b&area=true&hide_border=true&area_color=6366f1" alt="Contribution Graph" width="100%"/>
 
 <!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=kavindugunawardhana2026&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" width="100%"/>
 
 </div>
 
