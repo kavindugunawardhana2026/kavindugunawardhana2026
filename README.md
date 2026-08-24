@@ -25,11 +25,7 @@
 
 ## 🧠 About Me
 
-<div align="center">
 
-![Binary Rain - Kavindu Kalhara](binary_rain.svg)
-
-</div>
 
 ```python
 class KavinduKalhara:
