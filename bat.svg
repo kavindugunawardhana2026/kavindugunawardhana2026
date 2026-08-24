@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" width="100%" height="100%">
+  <style>
+    .background {
+      fill: #0d1117;
+    }
+    .frame {
+      fill: none;
+      stroke: #39ff14; /* Neon green */
+      stroke-width: 2;
+      rx: 15;
+      filter: drop-shadow(0 0 5px rgba(57, 255, 20, 0.8));
+      animation: pulse-frame 3s infinite alternate;
+    }
+    .ascii {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 10px;
+      font-weight: bold;
+      fill: #39ff14; /* Neon green */
+      white-space: pre;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      0% {
+        opacity: 0.7;
+        filter: drop-shadow(0 0 2px rgba(57, 255, 20, 0.5));
+      }
+      100% {
+        opacity: 1;
+        filter: drop-shadow(0 0 8px rgba(57, 255, 20, 1));
+      }
+    }
+    @keyframes pulse-frame {
+      0% {
+        filter: drop-shadow(0 0 2px rgba(57, 255, 20, 0.3));
+      }
+      100% {
+        filter: drop-shadow(0 0 10px rgba(57, 255, 20, 0.8));
+      }
+    }
+  </style>
+  <rect class="background" width="100%" height="100%" rx="15"/>
+  <rect class="frame" x="10" y="10" width="780" height="630" />
+  <text x="30" y="40" class="ascii" xml:space="preserve">
+<tspan x="30" dy="12">    :::;xxXXxxxxxxxxxxXXX$$$$$$$$$$$$$$XX$$XXXXXXXXXXXxxXX$$$xxxxXXxxx++xxXXxxx;::::::::........    </tspan>
+<tspan x="30" dy="12">    :::+xXXXxxxxxxxxxxX$$$$$$$$$$$$$$$$$$$$$$XXXXX$$$$$$$$$$$$xxxxxxxxx+xxXXxxx;;;;;;;:::....:::    </tspan>
+<tspan x="30" dy="12">    ;;;;+xxx+xxxxxxxxXXX$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&&$$XxxX$$$xxxxxxxxx++++;;;;;;;::::::;    </tspan>
+<tspan x="30" dy="12">    ;;;++;;;++xxXxxxXXX$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$X$$$$$Xxxxxx+++x++++++;++x+;;::::    </tspan>
+<tspan x="30" dy="12">    ++xxx+;;;+xxxxxXXXX$$$$$$$$$$$$$&$$$$$$$xxxxxxxxxx$$XXX$$$$$$$&&$Xxxxxxxxxxxx+++++xxx+;:::..    </tspan>
+<tspan x="30" dy="12">    xx++++;;;+xxxXX$$$$$$$$$$$$$$$$&$$X+..........:.::;++xXX$X$$$&&$$XXxxxxxxxxxxxx++xxXxx;:....    </tspan>
+<tspan x="30" dy="12">    +x+++;;;+xxxxXX$$$$$$$$$$$$$$$$$x..................:;;;;xX$$&&&$$XXxxxxxx+++xxxx+xxxxxx.....    </tspan>
+<tspan x="30" dy="12">    ;+++;;;+xxxxxxX$$$$$$$$$$$$$$$$;......................:;;X$$$$$$$XXxxxx++xxxxxxxx+++x+::::::    </tspan>
+<tspan x="30" dy="12">    ;;;;;++xxxxxxxX$$$$$$$$$$$$$$$;..............:+xxx;::.:;+X$$$$$$$$Xxx++++xxXXXx+;;;;;;::::::    </tspan>
+<tspan x="30" dy="12">    ;;++++xxxxxxxxXX$$$$$$$$$$$$$X:...........:;xxxX$$$$$$X+X$$$$$$$$$$xxx+xxxX$$Xx+;;;;;;;;::::    </tspan>
+<tspan x="30" dy="12">    +++x+++++xxxxxXX$$$$$$$$$$$$$X............;+xx$$$$$&&&$xxX$$$X$$$$$Xxxxxxxxxxxx+;;;+++;;::::    </tspan>
+<tspan x="30" dy="12">    xxxx++++xxxxxxX$$$$$$$$$$$$$$$..........:;;;:;;+:.:xX+++XXXXXXXXXXXxxxxxxxx++xx+;;;;+;;::::;    </tspan>
+<tspan x="30" dy="12">    xxxx+++xxxxxXXX$$$$$$$$$$$$$$$$.........;;++;:;+++;+X$X$$$XXXXXXXXxxxxxxxxxxxxxx+;;;++;::;;;    </tspan>
+<tspan x="30" dy="12">    xxx+++++xxXX$$$$$$$$$$$$$$$$$$$x........;+xx$$$&$$x+x$&&&$XXXXxxXXXxxxxxxxxxxxxx+;;;++;;;;++    </tspan>
+<tspan x="30" dy="12">    +;;;;;;;xxXX$$$$$$$$$$$$$$$$$$$$:;:::::.:;;xxX$$$$;+::x$&$XXXxxxxxxxxxxxxx+xxx++;;;;+++;;;;;    </tspan>
+<tspan x="30" dy="12">    x;;;;;;++xxxxXXXXX$$$$$$$$$$$$$$$x+;::;:.::;xxxX$$XxxX$$&$XXXxxxxxxxxxxxxxxxx++;;::::;;;;;;:    </tspan>
+<tspan x="30" dy="12">    ++;;;;++xxxxxxXXXX$$$$$$$$$$$$$$$$;++x;::.:;+xxxxxx;;xXx$$XX$$XXxxxxxxxxxx++++;;:::.::;;;;::    </tspan>
+<tspan x="30" dy="12">    xxxx++xxxxxxxxXXXX$$$$$$$$$$$$$$$$$x..:::.::;+x+xxxxx+x$&xXXXXXXXXXxxxxxx+;;;;;:::...:;++;::    </tspan>
+<tspan x="30" dy="12">    xxXXXxxxxxxxxxxXX$$$$$$$$$$X$$$$$$$XX;:;::.;:;;;+xxxX$$&$xxxxxxxxXXxxxxxxx;;;;;;::::::;;;;::    </tspan>
+<tspan x="30" dy="12">    xxX$$XXXxxxxxxxXX$$$$$$$XXXXXXX$$$$$$$x;;;::::.:.:::;++xxxxxxxxxXXXxxxxxxx+;;;;;;;::::::::..    </tspan>
+<tspan x="30" dy="12">    ++xxxXXxxxxxxxXXXXX$$$$XXXXXXXXX$$X$$$$;;;:::.....:;x$x&XxxxxxxxXXXxxxxxx+x+++;;;;;::::::...    </tspan>
+<tspan x="30" dy="12">    +++xxxxxxxxxXXXXXXX$$$$$XXXXXXXXXXXX$$;::;;;;;;;;+x$$$x&&$xxxxxxXXxxxxxx+xxx+++;;;:....::...    </tspan>
+<tspan x="30" dy="12">    +++xxxxxxxxxXXX$$XXX$$X$$XXXXXXXXXXX$$x.:;;;;;;;xxXXX+&&&&&&&&&&$XXXXXxxxxxxx++;;:..........    </tspan>
+<tspan x="30" dy="12">    x+++xxxxxxxxXXXXXX$$$$$$X$$XXXXXX$$$$$$::;;++++xxxxx;$&&&&&&&&&&&&&&&&$xxXXxx++;:::.........    </tspan>
+<tspan x="30" dy="12">    xx;;+xxxxxxxxxxxXXX$XXXXX$$$X$$$&&$&&&&$;;;+xxxxxxx;x&&&&&&&&&&&&&&&&&&&&&Xxxx+;::::....::::    </tspan>
+<tspan x="30" dy="12">    xx+;;;;xxxxxxxxxX$$$$$X$$$$$&&&&&$&&&$X&&xx+xxxxxxx$$$$$$&&&&&&&&&&&&&&&&&&$xxx+;:::::.:::::    </tspan>
+<tspan x="30" dy="12">    Xxx;;;;;+xxxxxxxXXX$$$$$&&&&&&&&&&$$$$X$$$&&X$Xxx$&&&&&&&&&&&&&&&&&&&&&&&&&&$xx;;:::::::::::    </tspan>
+<tspan x="30" dy="12">    xx;:::;;++xxxxxxxxXXX$&&&&&&&&&&&&&&&$$$$$$$$&$X&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;;:::::::::::    </tspan>
+<tspan x="30" dy="12">    ;;:::::;;;+xxxxxxxxXX$&&&&&&&&&&&&&&&&&&&&$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&+;:::...::::::    </tspan>
+<tspan x="30" dy="12">    :::::::::;;+xxxxxxxX$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X;;::...::;;;:    </tspan>
+<tspan x="30" dy="12">    :::::::::;;+xxxxxxxX$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;::..:;+x+;    </tspan>
+<tspan x="30" dy="12">    ::::::::;;++xxxxxxx$$$$$&$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&+;:::::;xxx;    </tspan>
+<tspan x="30" dy="12">    ;:::::;;+xxxxxxxxxx$$&$&$&$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x;:::::;;+;;    </tspan>
+<tspan x="30" dy="12">    x;:::;xxX$$Xxxxxxxx&$$&$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$&&&&&&&$;;::::::...    </tspan>
+<tspan x="30" dy="12">    x+;+X$$$$$$Xxxxxxxx&$$&&$$$$$$&&$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$&$&&&&&&&&&+;;;::.....    </tspan>
+<tspan x="30" dy="12">    xxxX&&&&$x++++xxxxX&&$$&$$$X$$&&$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X&$$&&&&&&&&&$++;::.....    </tspan>
+<tspan x="30" dy="12">    ++xX$$$$x;;;;;++xx$&&&$$&$$$xX$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X$$&&&&&&&&&&&x;;:::....    </tspan>
+<tspan x="30" dy="12">    +;;;++;;::::;;;+xx$&&&$&$&$xXx$$$$&&&&&&&&&&$&&&&&&&&&&&&&&&&&&&&&&&X$$&&&$&&&&&&&$::;;;;;:.    </tspan>
+<tspan x="30" dy="12">    ;;;;:...::::;;;+xx&$&&&$&$$Xxx$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X$$$$&&&&&&&&&&;:;+++;:.    </tspan>
+<tspan x="30" dy="12">    ++++;:...:::;;;++x&&$&&&&&$$xx$$$$&&&&&&&&&&&&&&&&$&&&&&&&&&&&&&&&&&$X$$$$&&&&&&&&&x:;++;:..    </tspan>
+<tspan x="30" dy="12">    ;+xx;;:::::;;;;++$&&&$&&$&$$Xx$$$$&&&&&&&&&&$&&&&&$&&&&&&&&&&&&&&&&&$X$$$&&&&&&&&&&$;;+;;...    </tspan>
+<tspan x="30" dy="12">    ;;;;;::.:::;;;;;+$&&&&$&&$$$XX$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Xx$$$$&&&&&&&&&&;;+;;...    </tspan>
+<tspan x="30" dy="12">    :;;;:....::;;;;;x$&&&&&&&$$$Xx$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&X++X$$$$&&&$&&&&$+++;:..    </tspan>
+<tspan x="30" dy="12">    :;+++;:.:::;;;;;x&&&&&&&&$$$x+X$$$$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;:;$$$$$&&&&&&&x+x+;..    </tspan>
+<tspan x="30" dy="12">    ;;;;;:::::;;;;;;x&&&&&&$$$$$;;X$&&$$$$$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;:x$$$$$&&&&&&&$xxx+:.    </tspan>
+<tspan x="30" dy="12">    ;;::...:::::;;;;x$&&&&&&$$$X++X$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;:;$$$$$$&&&&&&X+xx+:.    </tspan>
+<tspan x="30" dy="12">    xx+:::....::::;+$$&$$$$&&$$$+x$$$$&&&&$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&x+;::x$$$$&&&&&&&$;++;:.    </tspan>
+  </text>
+</svg>
